@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 25px;
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.navbar-ul a{
+    text-decoration: none;
+    color: #000000E5;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.5;
+}
+.button1{
+    background-color:#29B24E;
+    padding: 13px 20px;
+    border-radius: 12px;
+    color: white;
+}
+.bottom1{
+    border-bottom: 2px solid #29B24E;
+}
