@@ -141,7 +141,7 @@ label{
     margin-top: 25px;
     justify-content: space-between;
     font-size: 15px;
-    border-top: 1px solid rgb(8, 85, 8);
+    border-top: 1px solid #CFEAD6;
     color: black;
     padding: 15px 0;
 }
@@ -184,11 +184,11 @@ a{
 .footer1{
     background-color: #01b434;
     min-height: 20vh;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 .footer-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 20px;
     margin-top: 55px;
 }
@@ -197,4 +197,43 @@ a{
     font-size: 16px;
     margin: 15px;
 }
-.hline { width:100%; height:1px ; background: #fff;margin-top: 30px;
+.hline { width:100%; height:1px ; background: #fff;margin-top: 30px;margin-left: -20px;}
+.footer-bottom a{
+    color: white;
+    font-size: 16px;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 25px;
+}
+input[type="checkbox"] {
+    accent-color: rgb(15, 233, 15);
+  }
+  @media (max-width:768px){
+        .navbar-ul{
+            display: none;
+        }
+        .button1{
+            display: none;
+        }
+        .all-forms{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .forms1{
+            width: 70%;
+        }
+        .main-img{
+            width: 500px;
+            max-height: 500px;
+            background-position: center;
+            margin-bottom: 20px;
+            border-radius: 24px;
+        }
+        .titles1 h1 {
+            
+        }
+        .big{
+            display: none;
+        }
+  }
