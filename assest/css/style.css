@@ -225,7 +225,6 @@ input[type="checkbox"] {
     display: none;
   }
  
-  
   @media(max-width:768px) {
     .navbar-ul{
         display: none;
@@ -238,7 +237,8 @@ input[type="checkbox"] {
         flex-direction: column-reverse;
     }
     .forms1{
-        width: 80%;
+        width: 387px;
+        min-height: 650px;
     }
     .main-img{
         width: 500px;
@@ -325,5 +325,6 @@ input[type="checkbox"] {
    }
 
   }
+  
   
   
