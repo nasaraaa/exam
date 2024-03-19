@@ -41,6 +41,7 @@
 .section-flex{
     display: flex;
     gap: 5px;
+    margin-top: 15px;
 }
 .photo img{
     width: 710px;
@@ -55,7 +56,7 @@
     padding: 10px 10px;
     background-color: #ffffff;
 }
-.top{
+.top-page2{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,18 +77,18 @@
     line-height: 23px;
     width: 80%;
 }
- .top p:nth-child(1){
+ .top-page2 p:nth-child(1){
     background-color:#29B24E ;
     color: white;
     border-radius: 15px;
     padding: 7px 5px;
     font-size: 11px;
 }
-.top p:nth-child(2){
+.top-page2 p:nth-child(2){
     font-size: 11px;
     opacity: 0.5;
 }
-.top p:nth-child(3){
+.top-page2 p:nth-child(3){
     opacity: 0.5;
     font-size: 11px;
 }
@@ -100,4 +101,113 @@
     border-bottom: 1px solid #ECECEC;
     border-top: 1px solid #ECECEC;
     padding: 10px 0;
+}
+.section1{
+    margin-top: 35px;
+}
+.aside-inside{
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+
+}
+.item{
+    display: inline-block;
+    width: 35%;
+
+}
+.top1{
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+.top2{
+    margin-bottom: 10px;
+}
+.section2{
+    margin-top: 30px;
+}
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.card{
+    max-width: 400px;
+    width: 100%;
+    min-height: 200px;
+    border: 3px solid white;
+    padding: 12px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 10px 5px 5px #C2C2C24D;
+    border-radius: 24px;
+    position: relative;
+}
+.card h2{
+    font-size: 16px;
+    color: black;
+    margin: 5px 0;
+}
+.change-color{
+    opacity: 0.3;
+    margin: 5px 0;
+    list-style: none;
+    text-decoration: none;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;
+    color: #00fe44;
+    font-size: 19px;
+}
+.bottom-end{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    font-size: 15px;
+    border-top: 1px solid #CFEAD6;
+    color: black;
+    padding: 15px 0;
+}
+.bottom-end p{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.3s;
+}
+.bottom-end p:hover {
+    border-bottom: 1px solid greenyellow;
+    color: gold;
+}
+.top{
+    position: absolute;
+    top: 25px;
+    left: 23px;
+    background-color: #03ff46;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+span{
+    color: black;
+    opacity: 0.5;
+}
+.card img:nth-child(2){
+    width: 27px;
+    height: 23px;
+    margin-top: -10px;
+    margin-left: 85%;
+    background-color: white;
+    padding: 3px 3px;
+}
+a{
+    text-decoration: none;
+}
+.navbar-ul li a:hover  {
+    color: rgb(118, 165, 42);
+    font-size: 30px;
+}
+.photo-flex{
+    display: flex;
+    gap: 15px;
 }
