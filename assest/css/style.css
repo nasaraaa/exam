@@ -269,8 +269,9 @@ input[type="checkbox"] {
     line-height: 5px;
    }
    .footer1{
-    border-radius: 90px;
+    border-radius: 20px;
     min-height: 315px;
+    margin-bottom: 70px;
    }
    .mobile-photo{
     display: block;
@@ -312,7 +313,10 @@ input[type="checkbox"] {
    }
    .green{
     background-color: rgb(146, 225, 26);
-    height: 50px;
+    height: 56px;
+    width: 56px;
+    border-radius: 12px;
+    padding: 10px 0;
    }
    .titles1{
     position: absolute;
